@@ -44,12 +44,11 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
   //Code Here
 function reversedLooper(arr){
-  console.log(arr);
-  return arr.reverse().map(function(x){
-    alert(x)
-  })
+    for (var i = arr.length - 1; i > -1; i--) {
+      alert(arr[i])
+    }
 }
-reversedLooper(letters)
+
 //Next Problem
 
 var nums = [1,2,3,6,22,98,45,23,22,12];
